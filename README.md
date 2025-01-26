@@ -48,6 +48,7 @@ POST /api/gadgets/:id/self-destruct
 ```  
 ⚠️ **WARNING**: This endpoint will trigger an actual self-destruct sequence. Use with extreme caution!  
 
+
 ## 🎮 Testing with Postman  
 
 1. Get your JWT:  
@@ -72,6 +73,10 @@ POST /api/gadgets/:id/self-destruct
      "description": "Looks like gum, acts like C4"  
    }  
    ```  
+
+4. **Access the Postman collection**:  
+   Use the [Postman Documentation](https://upraised-7692.postman.co/workspace/Upraised-Workspace~02658492-6003-4cae-8524-fb1bb34bea4f/collection/40709274-42497c1a-a142-4591-85aa-ee7b7831d5af?action=share&creator=40709274&active-environment=40709274-3ef82ca4-4333-44fd-8b7a-a10f9ae70355) to test all API endpoints directly.
+
 
 ## 🔧 Sample Gadget Response  
 
