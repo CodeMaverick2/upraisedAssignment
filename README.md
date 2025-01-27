@@ -24,9 +24,32 @@ git clone https://github.com/CodeMaverick2/upraisedAssignment.git
 # Install dependencies (careful with those packages!)  
 npm install   
 
+# Set up your environment variables  
+cp .env.example .env  
+
 # Launch the mission  
 npm run dev  
 ```  
+
+## ⚙️ Environment Setup  
+
+To run this project locally, you’ll need to configure the following environment variables in a `.env` file:  
+
+```env  
+# Server Configuration  
+PORT=3000  
+NODE_ENV=development  
+
+# Database Configuration  
+MONGODB_URI=<your-mongodb-uri>  
+
+# JWT Configuration  
+JWT_SECRET=<your-secret-key>  
+JWT_EXPIRES_IN=24h  
+```  
+
+Make sure to replace `<your-mongodb-uri>` and `<your-secret-key>` with your actual MongoDB connection string and a secure secret key for JWT authentication.  
+
 
 ## 🎯 API Endpoints  
 
